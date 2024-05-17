@@ -3,21 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página de Inicio</title>
+    <title>Inicio - Tu Empresa</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
 <header>
-    <h1>Bienvenido a mi sitio web</h1>
+    <nav>
+        <div class="container">
+            <h1>Tu Empresa</h1>
+            <ul>
+                <li><a href="#">Servicios</a></li>
+                <li><a href="#">Precios</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="hero">
+        <div class="container">
+            <h2>Encuentra a los mejores profesionales para tu proyecto</h2>
+            <a href="#" class="btn">¡Comienza ahora!</a>
+        </div>
+    </div>
 </header>
 
-<section>
-    <h2>Sobre nosotros</h2>
-    <p>Aquí puedes escribir una breve descripción de tu empresa o proyecto.</p>
+<section class="features">
+    <div class="container">
+        <h2>¿Por qué elegirnos?</h2>
+        <div class="feature">
+            <h3>Profesionales cualificados</h3>
+            <p>Nuestros partners son expertos en sus áreas y están listos para ayudarte.</p>
+        </div>
+        <div class="feature">
+            <h3>Facilidad de uso</h3>
+            <p>Nuestra plataforma es intuitiva y fácil de usar para encontrar lo que necesitas.</p>
+        </div>
+        <div class="feature">
+            <h3>Seguridad</h3>
+            <p>Garantizamos transacciones seguras y la calidad del servicio prestado.</p>
+        </div>
+    </div>
 </section>
 
 <footer>
-    <p>Derechos Reservados &copy; 2024 Tu Empresa</p>
+    <div class="container">
+        <p>Derechos Reservados &copy; 2024 Tu Empresa</p>
+    </div>
 </footer>
 
 </body>
